@@ -11,7 +11,7 @@ const cors = require("@fastify/cors");
 module.exports = fp(async function (fastify, opts) {
   fastify.register(cors, {
     origin: [
-      "https://648a32c8fbb3a80b19eedfb0--endearing-treacle-f65767.netlify.app/",
+      "https://endearing-treacle-f65767.netlify.app",
       "http://127.0.0.1:5173",
     ],
   });
